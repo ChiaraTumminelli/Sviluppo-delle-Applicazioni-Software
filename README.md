@@ -1,6 +1,6 @@
 # SVILUPPO DELLE APPLICAZIONI SOFTWARE (SAS)
 
-###### Progetto d'esame realizzato per il corso di Sviluppo delle Applicazioni Spftware a.a. 2021/2022 
+###### Progetto d'esame realizzato per il corso di Sviluppo delle Applicazioni Software a.a. 2021/2022 
 
 Il progetto, la cui traccia si trova qui sotto, richiede la consegna di due pdf, che corrispondo agli allegati tecnici per il caso d'uso "Gestire i Compiti della Cucina" e "Gestire le Ricette e le Preparazioni" rispettivamente, e una cartella contenente l'implementazione. 
 
