@@ -17,6 +17,7 @@ public class TaskManager {
     private ArrayList<TaskEventReceiver> eventReceivers = new ArrayList<>();
 
     // ---------------------------- EVENT SENDER METHODS ----------------------------
+    
     private void notifySheetCreated(SummarySheet currentSheet, Menu menuAssigned) {
         for (TaskEventReceiver er : eventReceivers) {
             er.updateSheetCreated(currentSheet, menuAssigned);
