@@ -30,6 +30,7 @@ public class Task {
     }
 
     // ---------------------------- PERSISTENCE METHODS ----------------------------
+    
     public static void saveAllNewTasks(SummarySheet sheet, Menu m) {
         String sheetInsert = "INSERT INTO catering.Task (id_sheet, id_recipe, position) VALUES (?, ?, ?);";
         int[] result = PersistenceManager.executeBatchUpdate(sheetInsert, m.getAllRecipes().size(), new BatchUpdateHandler() {
